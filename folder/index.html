@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Sandi - Portofolio Junior DevOps Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .active-nav {
+            border-bottom: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- NAVBAR UTAMA -->
+    <header class="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-600 text-white p-2 rounded-lg font-bold text-lg shadow-md">MS</div>
+                <div>
+                    <h1 class="font-bold text-slate-900 leading-tight">Muhamad Sandi</h1>
+                    <p class="text-xs text-blue-600 font-medium">Junior DevOps Engineer</p>
+                </div>
+            </div>
+            
+            <!-- Navigasi Desktop -->
+            <nav class="hidden md:flex space-x-8 font-medium text-sm text-slate-600">
+                <a href="#home" class="hover:text-blue-600 transition active-nav py-5">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition py-5">About</a>
+                <a href="#skills" class="hover:text-blue-600 transition py-5">Skills</a>
+                <a href="#projects" class="hover:text-blue-600 transition py-5">Projects</a>
+                <a href="#reflection" class="hover:text-blue-600 transition py-5">Reflection</a>
+                <a href="#contact" class="hover:text-blue-600 transition py-5">Contact</a>
+            </nav>
+
+            <button onclick="alert('CV Berhasil Diunduh! (Simulasi)')" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold shadow flex items-center space-x-2 transition">
+                <i class="fas fa-download"></i> <span>Download CV</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main id="home" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- ================= SIDEBAR KIRI ================= -->
+        <aside class="lg:col-span-4 space-y-6">
+            
+            <!-- Profil Card (Lingkaran Bulat Dihapus) -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 text-center relative group">
+                
+                <!-- Ruang kosong atas diganti padding yang pas agar langsung nama -->
+                <div class="pt-4">
+                    <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Muhamad Sandi</h2>
+                    <p class="text-blue-600 font-semibold text-sm mt-1 mb-4">Junior DevOps Engineer</p>
+                </div>
+                
+                <p class="text-slate-500 text-sm leading-relaxed mb-6">I build, automate, and optimize infrastructure to deliver reliable and efficient software continuously.</p>
+                
+                <!-- Kontak Detail (Sidebar) -->
+                <div class="space-y-3 text-left text-sm border-t border-slate-100 pt-4">
+                    <a href="mailto:sandibiasa239@gmail.com" class="flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition">
+                        <i class="fas fa-envelope w-5 text-slate-400 text-center"></i> <span>sandibiasa239@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/Muhammadsandi" target="_blank" class="flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition">
+                        <i class="fab fa-github w-5 text-slate-400 text-center"></i> <span>github.com/Muhammadsandi</span>
+                    </a>
+                    <a href="https://gitlab.com/muhammadsandi" target="_blank" class="flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition">
+                        <i class="fab fa-gitlab w-5 text-orange-500 text-center"></i> <span>gitlab.com/muhammadsandi</span>
+                    </a>
+                    <a href="https://hub.docker.com/u/muhammadsandi" target="_blank" class="flex items-center space-x-3 text-slate-600 hover:text-blue-600 transition">
+                        <i class="fab fa-docker w-5 text-blue-500 text-center"></i> <span>hub.docker.com/u/muhammadsandi</span>
+                    </a>
+                    <div class="flex items-center space-x-3 text-slate-600">
+                        <i class="fas fa-map-marker-alt w-5 text-slate-400 text-center"></i> <span>Indonesia</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Branding -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-4">
+                <h3 class="font-bold text-slate-900">Personal Branding</h3>
+                <div class="flex items-start space-x-3">
+                    <div class="p-2 bg-blue-50 text-blue-600 rounded-lg text-sm"><i class="fas fa-crosshairs w-4 text-center"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase">Target Role</h4>
+                        <p class="text-sm font-semibold text-slate-800">Junior DevOps Engineer</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="p-2 bg-purple-50 text-purple-600 rounded-lg text-sm"><i class="fas fa-cubes w-4 text-center"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase">Main Skills</h4>
+                        <p class="text-sm font-semibold text-slate-800">Docker, Kubernetes, GitLab CI/CD, Git, Linux</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="p-2 bg-green-50 text-green-600 rounded-lg text-sm"><i class="fas fa-bolt w-4 text-center"></i></div>
+                    <div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase">Strengths</h4>
+                        <p class="text-sm font-semibold text-slate-800">Fast Learner, Problem Solving, Teamwork, Adaptive</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ================= KONTEN KANAN ================= -->
+        <div class="lg:col-span-8 space-y-6">
+            
+            <!-- SEKSI: ABOUT ME -->
+            <section id="about" class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 relative group">
+                <div class="flex items-center space-x-3 mb-4">
+                    <i class="fas fa-user text-blue-600 text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">About Me</h3>
+                </div>
+                <div class="text-slate-600 text-sm leading-relaxed space-y-4">
+                    <p>Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan pada bidang DevOps dan Cloud Computing. Selama proses belajar, saya telah mempelajari penggunaan Docker, Kubernetes, GitLab CI/CD, serta konsep GitOps untuk mendukung proses pengembangan dan deployment aplikasi modern.</p>
+                    <p>Tujuan karier saya adalah menjadi seorang DevOps Engineer yang mampu mengotomatisasi proses software development dan deployment sehingga menghasilkan sistem yang stabil, efisien, dan mudah dipelihara. Saya senang mempelajari teknologi baru dan terus mengembangkan kemampuan teknis maupun kolaborasi dalam tim.</p>
+                </div>
+            </section>
+
+            <!-- SEKSI: SKILLS & TOOLS -->
+            <section id="skills" class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 relative group">
+                <div class="flex items-center space-x-3 mb-6">
+                    <i class="fas fa-tools text-blue-600 text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">Skills & Tools</h3>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="p-4 rounded-xl border border-blue-100 bg-blue-50/30">
+                        <h4 class="font-bold text-blue-600 text-sm mb-3">Hard Skills</h4>
+                        <ul class="text-xs text-slate-600 space-y-2 font-medium">
+                            <li><i class="fas fa-check text-blue-500 mr-1"></i> Docker</li>
+                            <li><i class="fas fa-check text-blue-500 mr-1"></i> Kubernetes</li>
+                            <li><i class="fas fa-check text-blue-500 mr-1"></i> Git</li>
+                            <li><i class="fas fa-check text-blue-500 mr-1"></i> GitLab CI/CD</li>
+                            <li><i class="fas fa-check text-blue-500 mr-1"></i> Linux</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 rounded-xl border border-green-100 bg-green-50/30">
+                        <h4 class="font-bold text-green-600 text-sm mb-3">Programming</h4>
+                        <ul class="text-xs text-slate-600 space-y-2 font-medium">
+                            <li><i class="fas fa-code text-green-500 mr-1"></i> Python</li>
+                            <li><i class="fas fa-code text-green-500 mr-1"></i> Bash Script</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 rounded-xl border border-purple-100 bg-purple-50/30">
+                        <h4 class="font-bold text-purple-600 text-sm mb-3">Tools</h4>
+                        <ul class="text-xs text-slate-600 space-y-2 font-medium">
+                            <li><i class="fas fa-wrench text-purple-500 mr-1"></i> VS Code</li>
+                            <li><i class="fas fa-wrench text-purple-500 mr-1"></i> GitHub / GitLab</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 rounded-xl border border-amber-100 bg-amber-50/30">
+                        <h4 class="font-bold text-amber-600 text-sm mb-3">Soft Skills</h4>
+                        <ul class="text-xs text-slate-600 space-y-2 font-medium">
+                            <li><i class="fas fa-heart text-amber-500 mr-1"></i> Problem Solving</li>
+                            <li><i class="fas fa-heart text-amber-500 mr-1"></i> Teamwork</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEKSI: PROJECTS -->
+            <section id="projects" class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100 space-y-6">
+                <div class="flex items-center space-x-3 mb-2">
+                    <i class="fas fa-folder-open text-blue-600 text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">Projects</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    
+                    <!-- Proyek 1: GitLab Repi -->
+                    <div class="border border-slate-200 rounded-xl p-5 flex flex-col justify-between hover:shadow-md transition">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-3">
+                                <span class="bg-blue-600 text-white font-bold text-xs px-2 py-1 rounded">01</span>
+                                <h4 class="font-bold text-slate-900 text-sm">CI/CD Pipeline Automation with GitLab CI</h4>
+                            </div>
+                            <div class="text-xs space-y-2 text-slate-600 mb-4">
+                                <p><strong>Background:</strong> Proses deployment manual memakan waktu lama.</p>
+                                <p><strong>Solution:</strong> Membuat pipeline otomatis untuk build, test, dan deployment menggunakan latihan dasar Git.</p>
+                            </div>
+                            <div class="flex flex-wrap gap-1 mb-4">
+                                <span class="bg-slate-100 text-slate-700 text-[10px] font-semibold px-2 py-0.5 rounded">GitLab CI</span>
+                                <span class="bg-slate-100 text-slate-700 text-[10px] font-semibold px-2 py-0.5 rounded">Git</span>
+                            </div>
+                            <div class="bg-slate-900 rounded-lg p-3 text-white font-mono text-[11px] mb-4 overflow-x-auto">
+                                <div class="flex items-center space-x-2 text-green-400">
+                                    <i class="fas fa-check-circle"></i> <span>Build Success [2m 15s]</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 pt-2 border-t border-slate-100">
+                            <a href="https://gitlab.com/muhammadsandi/latihan-git" target="_blank" class="text-center bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs py-2 rounded-lg font-medium transition flex items-center justify-center space-x-2">
+                                <i class="fab fa-gitlab text-orange-500"></i> <span>Repository GitLab</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Proyek 2: Docker Hub Repi -->
+                    <div class="border border-slate-200 rounded-xl p-5 flex flex-col justify-between hover:shadow-md transition">
+                        <div>
+                            <div class="flex items-center space-x-2 mb-3">
+                                <span class="bg-blue-600 text-white font-bold text-xs px-2 py-1 rounded">02</span>
+                                <h4 class="font-bold text-slate-900 text-sm">Docker Application Containerization</h4>
+                            </div>
+                            <div class="text-xs space-y-2 text-slate-600 mb-4">
+                                <p><strong>Background:</strong> Aplikasi sulit dipindahkan antar environment server.</p>
+                                <p><strong>Solution:</strong> Menggunakan Docker Image dan mendistribusikannya via Docker Hub Registry.</p>
+                            </div>
+                            <div class="flex flex-wrap gap-1 mb-4">
+                                <span class="bg-slate-100 text-slate-700 text-[10px] font-semibold px-2 py-0.5 rounded">Docker</span>
+                                <span class="bg-slate-100 text-slate-700 text-[10px] font-semibold px-2 py-0.5 rounded">Web Server</span>
+                            </div>
+                            <div class="bg-slate-900 rounded-lg p-3 text-white font-mono text-[11px] mb-4 overflow-x-auto">
+                                <div class="flex items-center space-x-2 text-blue-400">
+                                    <i class="fas fa-sync fa-spin"></i> <span>web-server-1:latest Running</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 pt-2 border-t border-slate-100">
+                            <a href="https://hub.docker.com/r/muhammadsandi/web-server-1" target="_blank" class="text-center bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs py-2 rounded-lg font-medium transition flex items-center justify-center space-x-2">
+                                <i class="fab fa-docker text-blue-500"></i> <span>Repository Docker Hub</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SEKSI: REFLECTION -->
+            <section id="reflection" class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <div class="flex items-center space-x-3 mb-4">
+                    <i class="fas fa-brain text-blue-600 text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">Reflection</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-slate-600">
+                    <p><strong>Tantangan Terbesar:</strong> Mengotomatisasi deployment dan menyinkronkan repositori cloud secara efisien.</p>
+                    <p><strong>Skill yang Paling Berkembang:</strong> Git Management, Docker Containerization, dan Automasi CI/CD.</p>
+                </div>
+            </section>
+
+            <!-- SEKSI: CONTACT ME -->
+            <section id="contact" class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+                <div class="flex items-center space-x-3 mb-6">
+                    <i class="fas fa-paper-plane text-blue-600 text-xl"></i>
+                    <h3 class="text-xl font-bold text-slate-900">Contact Me</h3>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
+                    <a href="mailto:sandibiasa239@gmail.com" class="p-4 border border-slate-100 rounded-xl hover:border-blue-500 transition block">
+                        <i class="fas fa-envelope text-2xl text-slate-400 mb-2"></i>
+                        <p class="text-xs font-semibold text-slate-700">Email</p>
+                    </a>
+                    <a href="https://github.com/Muhammadsandi" target="_blank" class="p-4 border border-slate-100 rounded-xl hover:border-blue-500 transition block group">
+                        <i class="fab fa-github text-2xl text-slate-400 group-hover:text-slate-900 mb-2"></i>
+                        <p class="text-xs font-semibold text-slate-700">GitHub</p>
+                    </a>
+                    <a href="https://gitlab.com/muhammadsandi" target="_blank" class="p-4 border border-slate-100 rounded-xl hover:border-orange-500 transition block group">
+                        <i class="fab fa-gitlab text-2xl text-slate-400 group-hover:text-orange-500 mb-2"></i>
+                        <p class="text-xs font-semibold text-slate-700">GitLab</p>
+                    </a>
+                    <a href="https://hub.docker.com/u/muhammadsandi" target="_blank" class="p-4 border border-slate-100 rounded-xl hover:border-blue-500 transition block group">
+                        <i class="fab fa-docker text-2xl text-slate-400 group-hover:text-blue-500 mb-2"></i>
+                        <p class="text-xs font-semibold text-slate-700">Docker Hub</p>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Muhamad Sandi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const sections = document.querySelectorAll("section, main");
+        const navLi = document.querySelectorAll("nav a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+            sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute("id");
+                }
+            });
+
+            navLi.forEach((a) => {
+                a.classList.remove("active-nav");
+                if (a.getAttribute("href") === `#${current}`) {
+                    a.classList.add("active-nav");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
